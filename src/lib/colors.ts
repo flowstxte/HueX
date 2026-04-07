@@ -55,8 +55,10 @@ export function rgbToHsv({ r, g, b }: RGB): HSV {
 
 
 export function hsvToRgb({ h, s, v }: HSV): RGB {
+    h = h % 360;
+    if (h < 0) h += 360;
     s /= 100; v /= 100;
-    const i = Math.floor((h / 60) % 6);
+    const i = Math.floor(h / 60);
     const f = (h / 60) - i;
     const p = v * (1 - s);
     const q = v * (1 - f * s);
