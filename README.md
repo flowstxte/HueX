@@ -3,7 +3,7 @@
 
 HueX is a modern color picker app that helps designers & developers pick colors and generate ready-to-use code snippets.  
 
-**Live App**: [HueX on Vercel](https://huex-theta.vercel.app/)
+**Live App**: [HueX](https://huex-theta.vercel.app/)
 
 ---
 
@@ -57,15 +57,9 @@ npm run build
   <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,ts" />
 </p>
 
+- NextJS
+- React
+- TailwindCSS
+- TypeScript
 ---
 
-## License
-
-MIT License
-
----
-
-## Credits
-
-**flowstxte**
-[GitHub](https://github.com/flowstxte)
