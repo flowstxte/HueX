@@ -48,7 +48,7 @@ export default function CodeSnippetGenerator({ color }: CodeSnippetGeneratorProp
                 </Button>
               ))}
             </div>
-            <div className="relative mt-2 p-4 rounded-md bg-secondary font-mono text-sm">
+            <div className="relative mt-2 p-4 rounded-md bg-secondary text-secondary-foreground font-mono text-sm">
               <div className="absolute top-2 right-2">
                 <CopyButton textToCopy={snippet} />
               </div>
